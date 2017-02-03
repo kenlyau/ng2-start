@@ -1,6 +1,9 @@
-# Ng2
+# ng2-start
+快速启动一个angular2项目的骨架模板，基于[angular-cli]和[angular2-realworld-example-app]两个开源项目。
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
+[angular-cli](https://github.com/angular/angular-cli)
+
+[angular2-realworld-example-app](https://github.com/gothinkster/angular2-realworld-example-app)
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
