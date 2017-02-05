@@ -1,5 +1,5 @@
 # ng2-start
-快速启动一个angular2项目的骨架模板，基于[angular-cli]和[angular2-realworld-example-app]两个开源项目。
+快速启动一个angular2项目的骨架模板，采用Ng.module组织代码，更适合大型多人协作开发项目，基于[angular-cli]和[angular2-realworld-example-app]两个开源项目。
 
 [angular-cli](https://github.com/angular/angular-cli)
 
