@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { HomeModule } from './home/home.module';
+import { NoteModule } from './note/note.module';
 import { SettingsModule } from './settings/settings.module';
 
 import {
@@ -23,6 +24,7 @@ const rootRouting: ModuleWithProviders = RouterModule.forRoot([], {useHash: true
   imports: [
     BrowserModule,
     HomeModule,
+    NoteModule,
     SettingsModule,
     rootRouting
   ],
