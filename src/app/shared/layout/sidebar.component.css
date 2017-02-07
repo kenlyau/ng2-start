@@ -8,3 +8,13 @@
   color: #fff;
   background: #09844F;
 }
+.nav i {
+  padding-right: 10px;
+}
+.nav.mini a {
+  padding: 10px;
+  font-size: 0;
+}
+.nav.mini i {
+  font-size: 14px;
+}
