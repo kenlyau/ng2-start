@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('../node_modules/colors.css/css/colors.css');
+html,body,.app-root {
+  width: 100%;
+  height: 100%;
+}
+
+.app-root {
+  display: flex;
+  flex-direction: row;
+}
+.app-sidebar {
+  width: 96px;
+  color: #fff;
+}
+.app-container {
+  flex: 1;
+}

@@ -9,6 +9,7 @@ import { NoteModule } from './note/note.module';
 import { SettingsModule } from './settings/settings.module';
 
 import {
+   SidebarComponent,
    HeaderComponent,
    FooterComponent
  } from './shared/layout/';
@@ -18,6 +19,7 @@ const rootRouting: ModuleWithProviders = RouterModule.forRoot([], {useHash: true
 @NgModule({
   declarations: [
     AppComponent,
+    SidebarComponent,
     HeaderComponent,
     FooterComponent
   ],
