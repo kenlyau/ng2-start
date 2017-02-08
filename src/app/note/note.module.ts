@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 
 import { NoteComponent } from './note.component';
+import { NoteListComponent } from './note.list.component';
+import { NoteDetailComponent } from './note.detail.component';
 
 const noteRouting: ModuleWithProviders = RouterModule.forChild([
     {
@@ -21,7 +23,11 @@ const noteRouting: ModuleWithProviders = RouterModule.forChild([
     CommonModule,
     noteRouting
   ],
-  declarations: [NoteComponent],
+  declarations: [
+    NoteComponent,
+    NoteListComponent,
+    NoteDetailComponent
+  ],
   exports: [
     NoteComponent
   ]

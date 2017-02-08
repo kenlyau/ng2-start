@@ -10,10 +10,24 @@ html,body,.app-root {
   display: flex;
   flex-direction: row;
 }
-.app-sidebar {
+.app-root > .app-sidebar {
   width: 96px;
   color: #fff;
 }
-.app-container {
+.app-root > .app-container {
   flex: 1;
+  height: 100%;
+}
+.app-root > .app-container .app-container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+.app-root .md-list {
+  width: 260px;
+  overflow-y: scroll;
+}
+.app-root .md-container {
+  flex: 1;
+  overflow-y: auto;
 }
